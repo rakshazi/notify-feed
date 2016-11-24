@@ -90,6 +90,7 @@ class TrayIcon:
 
     def closeWindow(self, arg1, arg2):
         self.window.hide()
+        return True
 
 class Notify:
 
